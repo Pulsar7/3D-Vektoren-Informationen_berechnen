@@ -19,8 +19,10 @@ class VEKTOR_INFOS_3D:
             else:
                 alpha = "Mathematischer Fehler: Cosinus von Alpha ist %s°"%(winkel_zwischen_vektoren)
         else:
-            vektor_produkt_r = "Mathematischer Fehler -> %s"%(R)
-            vektor_produkt_s = "Mathematischer Fehler -> %s"%(S)
+            if (R < 0):
+                vektor_produkt_r = "Mathematischer Fehler -> %s"%(R)
+            if (S < 0):
+                vektor_produkt_s = "Mathematischer Fehler -> %s"%(S)
         return (alpha,vektor_produkt_r,vektor_produkt_s,skalar_produkt)
 
 if __name__ == '__main__':
