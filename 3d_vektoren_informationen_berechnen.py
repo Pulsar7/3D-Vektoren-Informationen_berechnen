@@ -29,10 +29,12 @@ if __name__ == '__main__':
     s = (1,0,-1)
     vektor_infos_3d = VEKTOR_INFOS_3D(r,s)
     (alpha, pr_r, pr_s, skalar_produkt) = vektor_infos_3d.get_vektor_informationen()
-    print("Vektor r: (%s,%s,%s)"%(r[0],r[1],r[2]))
-    print("Vektor s: (%s,%s,%s)"%(s[0],s[1],s[2]))
-    print("Winkel zischen Vektoren: %s°"%(alpha))
-    print("|r| = %s"%(pr_r))
-    print("|s| = %s"%(pr_s))
-    print("Skalarprodukt (r und s) = %s"%(skalar_produkt))
+    print("""
+    Vektor r      = (%s,%s,%s)
+    Vektor s      = (%s,%s,%s)
+    Alpha         = %s
+    |r|           = %s
+    |s|           = %s
+    Skalarprodukt = %s
+    """%(r[0],r[1],r[2],s[0],s[1],s[2],alpha,pr_r,pr_s,skalar_produkt))
 
