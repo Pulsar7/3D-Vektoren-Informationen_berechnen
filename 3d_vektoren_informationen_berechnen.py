@@ -7,7 +7,7 @@ class VEKTOR_INFOS_3D:
     
     def get_vektor_informationen(self):
         R = ((self.r[0])**2+(self.r[1])**2+(self.r[2])**2)
-        S = ((self.s[1]**2)+(self.s[1])**2+(self.s[2])**2)
+        S = ((self.s[0]**2)+(self.s[1])**2+(self.s[2])**2)
         alpha,vektor_betrag_r,vektor_betrag_s,skalar_produkt = "","","",""
         if (R > 0 and S > 0):
             vektor_betrag_r = (math.sqrt(R))
@@ -29,8 +29,8 @@ class VEKTOR_INFOS_3D:
 
 if __name__ == '__main__':
     os.system("cls") #Windows
-    r = (1,3,-1)
-    s = (6,2,-2)
+    r = (3,2,7)
+    s = (1,2,3)
     vektor_infos_3d = VEKTOR_INFOS_3D(r,s)
     (alpha, betrag_r,betrag_s,skalar_produkt) = vektor_infos_3d.get_vektor_informationen()
     print("""
