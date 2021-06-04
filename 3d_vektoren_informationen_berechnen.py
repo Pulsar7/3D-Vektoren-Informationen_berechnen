@@ -7,7 +7,7 @@ class VEKTOR_INFOS_3D:
     
     def get_vektor_informationen(self):
         R = ((self.r[0])**2+(self.r[1])**2+(self.r[2])**2)
-        S = ((self.s[0]**2)+(self.s[1])**2+(self.s[2])**2)
+        S = ((self.s[0])**2+(self.s[1])**2+(self.s[2])**2)
         alpha,vektor_betrag_r,vektor_betrag_s,skalar_produkt = "","","",""
         if (R > 0 and S > 0):
             vektor_betrag_r = (math.sqrt(R))
