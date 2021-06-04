@@ -4,3 +4,5 @@ Hier werden von zwei drei-Dimensionalen Vektoren bestimmte Werte berechnet: Wink
 # Verwendung von *math*
 
 Hier wurde das Python-Modul *math* benutzt, um den Betrag des jeweiligen Vektors (r,s) zu berechnen und den Winkel zwischen der beiden Vektoren zu berechnen.
+
+  pip install python-math
