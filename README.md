@@ -7,7 +7,3 @@ Hier wurde das Python-Modul *math* benutzt, um den Betrag des jeweiligen Vektors
 
     pip install python-math
 
-# Erklärung
-
-Die gesamte Erklärung des Quellcodes ist auf meiner Website: https://mein-wissen.herokuapp.com/ARTIKEL_RECHNEN/rechnen_mit_python/informationen_aus_3D_vektoren_berechnen
-zu finden.
